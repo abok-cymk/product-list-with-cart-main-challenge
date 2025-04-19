@@ -5,7 +5,7 @@ import DesertCard from './DesertCard';
 
 const DesertCardLayout = () => {
   return (
-    <ResponsiveLayout cols='grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4' className='gap-4'>
+    <ResponsiveLayout cols='grid-cols-1 sm:grid-cols-2 md:grid-cols-3' className='gap-4'>
       {data.map((item, item_idx) => (
         <DesertCard 
         key={item_idx}
